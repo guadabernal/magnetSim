@@ -9,7 +9,7 @@
 // --------------------- Experiment ---------------------
 
 struct Coil {
-    Coil(svector::float4 pos, float angle, int nloops, int radius, int current, int loop_gap)
+    Coil(svector::float4 pos, float angle, int nloops, float radius, float current, float loop_gap)
         : pos(pos), angle(angle), n(nloops), r(radius), j(current), d(loop_gap)
     {}
     svector::float4 pos;  // vector position of the center
